@@ -36,6 +36,15 @@
    #meet{
     background-image: url("./images/banner1.png");
    }
+   .slideone{
+    background-image: url("./images/banner1.png");
+   }
+   .slidetow{
+    background-image: url("./images/banner2.png");
+   }
+   .slidethree{
+    background-image: url("./images/banner3.png");
+   }
   </style>
 </head>
 <body>
@@ -82,8 +91,94 @@
 
 
       </nav>
+      <!-- ===================== banar scection========================= -->
+<div class="mycontainer">
+  <div class="carousel w-full">
+    <div id="slide1" class="carousel-item relative w-full">
+      <div class="slideone text-center w-full">
+        <h1>Exotic tastes at your doorstep</h1>
+        <p>We supply highly quality organic products</p>
+        <button>Shop Now </button>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide3" class="btn btn-circle">❮</a> 
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide2" class="carousel-item relative w-full">
+      <div class="slidetow text-center w-full">
+        <h1>Exotic tastes at your doorstep</h1>
+        <p>We supply highly quality organic products</p>
+        <button>Shop Now </button>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle">❮</a> 
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide3" class="carousel-item relative w-full">
+      <div class="slidethree text-center w-full">
+        <h1>Exotic tastes at your doorstep</h1>
+        <p>We supply highly quality organic products</p>
+        <button>Shop Now </button>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide2" class="btn btn-circle">❮</a> 
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <!-- <div id="slide4" class="carousel-item relative w-full">
+      <img src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide3" class="btn btn-circle">❮</a> 
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div> -->
+  </div>
+</div>
     </header>
     <main>
+
+      <!-- ===================== deal========================= -->
+      <div class="mycontainer">
+        <section id="deal">
+          <div class="flex items-center">
+            <div>
+              <h2>Deal of the day</h2>
+              <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div>
+              <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:15;"></span>
+                </span>
+                days
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:10;"></span>
+                </span>
+                hours
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:24;"></span>
+                </span>
+                min
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:45;"></span>
+                </span>
+                sec
+              </div>
+            </div></div>
+          </div>
+
+        </section>
+      </div>
+      <!-- ===================== meet========================= -->
       <div class="mycontainer">
         <section id="meet">
           <h2 class="text-center">Meet the team section</h2>
